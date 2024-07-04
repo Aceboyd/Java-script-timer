@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOYD'S FARM </title>
+    <link href="style.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    <div id="Message">
+        <p>Welcome to Boyd's farm</p>
+    
+    <p>where you get quality and good grains</p>
+</div>
+<!--<div id="colour-change"></div>-->
+<script src="love.js"></script>
+</body>
+</html>
+
+
+
+
+style
+
+body{
+    background: #b0e1bf;
+}
+
+#message{
+    width: 300px;
+    background: #36a561;
+    padding: 10px;
+    padding: 10px;
+    font-family: Calibri;
+    font-size: 20px;
+    font-style: italic;
+    color: #3d3e3d;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid #77ffab;
+    font-weight: bold;
+    opacity: 0;
+
+
+    /* set transition up. */
+    -webkit-transition: opacity 0.8s;
+    -moz-transition: opacity 0.8s;
+    transition: opacity 0.7s;
+}
+
+
+#message.show{
+    opacity: 1;
+    /* set transition up. */
+    -webkit-transition: opacity 0.8s;
+    -moz-transition: opacity 0.8s;
+    transition: opacity 0.8s;
+}
+
+
+/*#colour-changer {
+width: 300px;
+height: 200px;
+margin: 30px auto;
+border: 1px solid #000;
+background: #fff;
+
+-webkit-transition: opacity 0.8s;
+    -moz-transition: opacity 0.8s;
+    transition: opacity 0.8s;
+}
+
+
+
+
+
+js file
+
+var myMessage = document.getElementById("message");
+
+function showMessage(){
+
+.className = "show";
+
+}
+
+setTimeout(showMessage, 3000);
